@@ -61,38 +61,46 @@ Y= A⊕B
 
 5.	For different input combinations generate the timing diagram.
 
-
+   
 **PROGRAM**
-
+```
+## DEVELOPED BY: ROSHAN.G
+## REGISTER NUMBER:212223040176
+```
 Program for logic gates and verify its truth table in quartus using Verilog programming
 ```
-  Developed by: ROSHAN.G
-  RegisterNumber:212223040176
-```
- ```
- module exp1(a,b,f1,f2,f3,f4,f5,f6,f7);
+module exp1(a,b,f1,f2,f3,f4,f5,f6,f7);
 input a,b;
 output f1,f2,f3,f4,f5,f6,f7;
-assign f1=a&b;
-assign f2=a|b;
+assign f2=a&b;
+assign f1=a|b;
 assign f3=~a;
 assign f4=~f1;
 assign f5=~f2;
 assign f6=a^b;
-assign f7=~(a^b);
+assign f7=~f6;
 endmodule
- ```
+```
+
+
  
 **Logic symbol & Truthtable**
-![alt text](IMG-20250314-WA0002[1].jpg)
 
+![logic gates](https://github.com/user-attachments/assets/f69161f9-ebba-4a79-acaf-c7f23f33743a)
+
+
+
+
+![digitalelectronics1](https://github.com/user-attachments/assets/52edf9cc-e50e-49bd-adcb-5b6a2b31858f)
 
 **RTL realization Output:** 
-![alt text](<Screenshot (172)-1.png>)
 
 **RTL**
-![alt text](<Screenshot (117)-1.png>)
+![exp1](https://github.com/user-attachments/assets/c2e15073-49b0-4d70-b6b4-00b2889ab66b)
 
 **Result:**
-Thus the code executed successfully.
+
+The truth table of logic gates is verified.
+ 
+
 
